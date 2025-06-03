@@ -1,1 +1,1 @@
-# Pokemon_Trial
+# Testing way to a text-based game
