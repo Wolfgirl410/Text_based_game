@@ -8,7 +8,7 @@ int main() {
 	int PlayerId;
 	float winPercentage;
 	bool playerWon;
-	int typePlayer;
+	char typePlayer[1];
 
 	cout<<"On a peaceful night,the tiny,icelandic village whispered to the dancing trees...\n\nYou, um...what is your name...?\n\n";
 
@@ -30,10 +30,11 @@ int main() {
 	cout<<"Enter a type of player (A/B/C/D): ";
 	cin>>typePlayer;
 
-	cout<<"Your player ID is "<<PlayerId<<"\n\n";
-	cout<<"The number of lives you will have is "<<livesCount<<"\n\n";
-	cout<<"Your health is "<<playerHealth<<"\n\n";
-	cout<<"Your win percentage is "<<winPercentage<<"\n\n";
+	cout << "\n==========Player Stats==========\n\n";
+	cout << "PlayerID	: " <<PlayerId<< endl;
+	cout << "Lives count     : " <<livesCount<< endl;
+	cout << "Player Health	: " <<playerHealth<< endl;
+	cout << "Win Percentage	: " <<winPercentage<< endl;
 	cout << "Has Won         : " << (playerWon ? "Yes" : "No") << endl;
 	cout << "Player Type     : " << typePlayer << endl;
 	return 0;
