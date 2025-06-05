@@ -54,7 +54,7 @@ cout<<endl;
 		cout<< "Game Over! It is a draw!"<<endl;
 	}
 
-	if (playerHealth > 0){
+	if (playerHealth >= 0){
 
 		if (playerHealth == maxPH){
 			cout << "Player's health is full"<< endl;
@@ -67,7 +67,7 @@ cout<<endl;
 		}
 	} 
 
-	if (enemyHealth > 0){
+	if (enemyHealth >= 0){
 		if (enemyHealth == maxEH){
 			cout << "Enemy's health is full"<< endl;
 		} else if (enemyHealth == maxEH/2){
